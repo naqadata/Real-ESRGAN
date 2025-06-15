@@ -101,6 +101,7 @@ if __name__ == '__main__':
             'Programming Language :: Python :: 3.7',
             'Programming Language :: Python :: 3.8',
         ],
+        scripts=["inference_realesrgan_video.py"],
         license='BSD-3-Clause License',
         setup_requires=['cython', 'numpy'],
         install_requires=get_requirements(),
